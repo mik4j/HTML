@@ -1,0 +1,125 @@
+body{
+    background-image: url(Assets/img/fundo.jpg);
+    background-position: center, top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    
+    position: relative;
+}
+
+.form-inline{
+    text-align: center;
+    
+    
+}
+
+#alp{
+ width: 100px;
+    height: auto;
+}
+
+#edit{
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 3px;
+    border-color: #ff6339;
+    
+}
+
+.btn-info{
+    height: 50px;
+    width: 100px;
+    border-color: black;
+    background-color:#ff6339 ;
+    text-decoration-color: black;
+}
+
+#fontawesome1{
+    margin-left: 10%;
+    margin-top:2%;
+    color: #ff6339;
+    font-size: 0px;
+}
+
+
+#fontawesome{
+    margin-left: 5%;
+    margin-top:2%;
+    color: #ff6339;
+    font-size: 0px;
+}
+
+#fontawesome2{
+    margin-left: 5%;
+    margin-top:3%;
+    color: #ff6339;
+    font-size: 0px;
+    
+}
+
+#fontawesome25{
+    margin-left: 5%;
+    margin-top:2%;
+    color: #39D4FF;
+    font-size: 0px;
+}
+
+#fontawesome3{
+    margin-left: 5%;
+    margin-top:3%;
+    color: #ff6339;
+    font-size: 0px;
+    
+}
+
+
+.junbtron{
+    background:rgba(123,123,123,0);
+}
+
+.display-1{
+    color: #ff6339;
+    font-family: arial serif;
+}
+
+#imagemjunb{
+    position: relative;
+    top: 50%;
+    left: 46%;
+}
+
+.lead{
+    color: #ff6339;
+    font-family: arial serif;
+}
+
+#footer{
+    position: fixed;
+    bottom:0px;
+    margin-left=0px;
+    margin-right=0px;
+}
+
+#menufooter{
+    background-color:#1C1C1C;
+    opacity: 1;
+}
+#alpha4footer{
+  
+    
+}
+
+#img{
+    text-align: center;
+    margin-top: 1%;
+}
+
+#img2{
+    color: white;
+}

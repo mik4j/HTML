@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/bootstrap-flex.css">
+
+    <title>Bootstrap Intermediário - Barra de Navegação</title>
+    <script src="https://use.fontawesome.com/01f6939522.js"></script> 
+     <style type="text/css">      
+      .formataContainer {
+
+        border-color: dodgerBlue;
+        border-style: solid;
+        border-width: 6px;
+
+        padding: 0px;
+        width: 610px;
+        height: 460px;
+      }
+
+    </style>   
+</head>
+
+<body background="C:\Users\aluno\Downloads\EG_bootstrap-20170619T224444Z-001\EG_bootstrap\fundo.jpg">
+
+    <!-- Barra de navegação -->
+
+    <nav class="navbar bg-inverse navbar-inverse">
+
+          <a href="#" class="navbar-brand">
+          	<b>Alpha 4 <b>
+          	<!-- d-inline-block = elementos subsequentes não quebram linha, nada por cima dele -->
+          </a>
+
+         
+
+          <div class="collapse navbar-toggleable-sm" id="menu-sanduiche">
+  <ul class="nav navbar-nav"> 
+
+              <li class="nav-item">
+                <a href="Projeto.html" class="nav-link">Home</a>
+              </li>
+
+              
+               <li class="nav-item">
+                <a href="informacoes.html" class="nav-link">informações</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Produtos</a>
+                <div class="dropdown-menu">
+                   <a href="Monitores.html" class="dropdown-item">Monitores</a>
+                  <a href="Teclados.html" class="dropdown-item">Teclados</a> 
+                  <a href="Fones.html" class="dropdown-item">Fones</a> 
+                  <a href="Gabinetes.html" class="dropdown-item">Gabinetes</a> 
+                  <a href="Hardware.html" class="dropdown-item">Hardware</a>  
+                </div>
+              </li>
+
+            </ul>
+ 
+          
+           
+            
+            <form class="form-inline" style="text-align: right;">
+              <input type="text" size="65" class="form-control" placeholder="Faça sua Pesquisa...">
+              <button class="btn btn-info "  type="submit">Pesquisar</button>
+            </form>
+          
+          </div> <!-- sanduíche -->        
+
+    </nav>
+ 
+<form class="form-text" style="text-align: left ; color: white; "><p>
+<h1 style="text-align: center;"><i class="fa fa-users" aria-hidden="true"><b>Quem somos?</b></i> <p></h1>
+          <h1 style="text-align: center;"><i class="fa fa-address-book" aria-hidden="true"><b>Contatos</b></i> <p></h1>
+          <h5 style="text-align: center;"><i class="fa fa-whatsapp" aria-hidden="true">(19) 9 9888-4242</i><p>
+          <i class="fa fa-facebook-square" aria-hidden="true"> Alpha4-Games </i>
+          <i class="fa fa-instagram" aria-hidden="true">Alpha4Oficial</i></h5>
+<h1 style="text-align: center;"><p>
+            <i class="fa fa-location-arrow" aria-hidden="true"><b>Nossa localização</b></i></h1>
+            <div align="center" class="container formataContainer"> <p>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228.63528829781623!2d-46.67467184338699!3d-23.526581088787935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb8994a3726fed583!2sMundo+dos+Games!5e0!3m2!1spt-BR!2sbr!4v1497921405563" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </p>
+    </div> 
+
+    <p style="text-align: center;">    
+      <i class="fa fa-building-o" aria-hidden="true"></i> Av. Conde Francisco Matarazzo - Água Branca, São Paulo - SP, CEP:05003-100<br>
+    </p>
+</form>
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              <div class="jumbotron text-centered">
+        <h3 class="display-3">Depoimentos</h3>
+        
+        <!-- 1a row do card-->
+        <div class="row">
+
+          <!-- 1o card -->
+          <div class="col-md-3 col-sm-12">
+            <div class="card">
+              
+              <div class="card-block">
+                <h4 class="card-title">Depoimento 1</h4>
+                <h6 class="card-subtitle text-muted">Foi legal!</h6>
+              </div>
+              
+              <div class="card-block">
+                <p class="card-text">Foi muito legal! Gostei muito! Parabéns!</p>
+                <a href="#" class="card-link">Link 1</a>
+                <a href="#" class="card-link">Link 2</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2o card -->
+          <div class="col-md-3 col-sm-12">
+            <div class="card card-danger card-inverse">
+              
+              <div class="card-block">
+                <h4 class="card-title">Depoimento 2</h4>
+                <h6 class="card-subtitle text-muted">Foi legal também!</h6>
+              </div>
+              
+              <div class="card-block">
+                <p class="card-text">Foi muito legal! Gostei muito! Parabéns!</p>
+                <a href="#" class="card-link">Link 1</a>
+                <a href="#" class="card-link">Link 2</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3o card -->
+          <div class="col-md-3 col-sm-12">
+            <div class="card card-info card-inverse">
+              
+              <div class="card-block">
+                <h4 class="card-title">Depoimento 3</h4>
+                <h6 class="card-subtitle text-muted">Melhor impossível!</h6>
+              </div>
+              
+              <img src="assets/img/pessoa-1.jpg" style="width:70%; height:auto">
+              <div class="card-block">
+                <p class="card-text">Foi muito legal! Gostei muito! Parabéns!</p>
+                <a href="#" class="card-link">Link 1</a>
+                <a href="#" class="card-link">Link 2</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4o card -->
+          <div class="col-md-3 col-sm-12">
+            <div class="card card-outline-warning">
+              
+              <div class="card-block">
+                <h4 class="card-title">Depoimento 4</h4>
+                <h6 class="card-subtitle text-muted">Melhor impossível!</h6>
+              </div>
+              
+              <img src="assets/img/pessoa-1.jpg" style="width:70%; height:auto">
+              <div class="card-block">
+                <p class="card-text">Foi muito legal! Gostei muito! Parabéns!</p>
+                <a href="#" class="card-link">Link 1</a>
+                <a href="#" class="card-link">Link 2</a>
+              </div>
+            </div>
+          </div>       
+
+        </div> <!-- end da div da 1a row -->
+        
+        <!-- 2a row do card-->   
+        <div class="row">
+
+          <!-- 1o card -->
+          <div class="col-md-3 col-sm-12">
+            <div class="card">
+
+              <img class="card-img-top" src="assets/img/pessoa-1.jpg" style="width:100%; height:auto">
+              
+              <div class="card-img-overlay">
+                <h4 class="card-title">Depoimento 5</h4>
+                <h6 class="card-subtitle text-muted">Foi incrível!</h6>
+              </div>
+              
+              <div class="card-block card-warning">
+                <p class="card-text">Mais uma vez, foi muito legal! Gostei bastante!</p>
+                <a href="#" class="card-link">Link 1</a>
+                <a href="#" class="card-link">Link 2</a>
+              </div>
+            </div>
+          </div>             
+        
+        </div> <!-- end da div da 2a row -->  
+
+      </div>
+              
+              
+              
+              
+              
+              
+              
+    <!-- Fim Barra de navegação -->   
+
+    <script src="assets/js/jquery-3.1.0.js"></script>
+    <script src="assets/js/tether.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+
+
+</body>
+
+</html>
